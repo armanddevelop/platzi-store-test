@@ -3,7 +3,7 @@ import 'jsdom-global/register';
 import { mount, shallow } from 'enzyme';
 import Product from '../../components/Product';
 import ProviderMock from '../../__mocks__/providerMock';
-import productMock from '../../__mocks__/productMock';
+import { productMock } from '../../__mocks__/productMock';
 
 describe('<Product/> component Reder', () => {
   test('expect the component Product is mount property ', () => {

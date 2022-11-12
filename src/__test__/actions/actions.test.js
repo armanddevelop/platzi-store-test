@@ -1,5 +1,5 @@
 import actions from '../../actions';
-import productMock from '../../__mocks__/productMock';
+import { productMock } from '../../__mocks__/productMock';
 
 describe('actions functions test', () => {
   const expectedObj = (action, payload = 0) => ({
